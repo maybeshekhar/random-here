@@ -1,0 +1,57 @@
+.nav-text{
+    display: flex;
+  justify-content: center;
+list-style: none;
+text-align: center;
+}
+
+.blurry{
+    width: 15% !important;
+  color: rgb(12, 12, 12);
+  opacity: 1;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.nav-link {
+  font-size: 20px !important ;
+  color: whitesmoke !important ;
+}
+
+.active.nav-link {
+  /* Customize the styles for active links if needed */
+  font-weight: bold ;
+  color: white !important ;
+}
+
+.offcanvas_class{
+  background-color: rgb(12, 12, 12);
+}
+
+@media screen and (max-width: 768px) {
+  .blurry{
+    width: 40% !important; 
+  }
+
+  .navbar {
+    background-color: transparent;
+  }
+
+  .nav-link {
+    font-size: 18px !important ;
+    color: whitesmoke !important ;
+  }
+ 
+  .active.nav-link {
+    /* Customize the styles for active links if needed */
+    font-weight: bold ;
+    color: white !important ;
+  }
+
+  .offcanvas_class{
+    background-color: rgb(12, 12, 12);
+  }
+
+}

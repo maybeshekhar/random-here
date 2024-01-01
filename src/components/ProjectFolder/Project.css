@@ -1,0 +1,26 @@
+.projimg{
+    height: 250px;
+    transition: 0.4s;
+}
+
+.projimg:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.project-title{
+    color: #f8f9fa;
+}
+
+.project-para{
+    color: #f8f9fa ;
+}
+
+.wholeproject{
+    background-color: #16191d;
+}
+
+.project-card-body{
+    background-color: #16191d;
+}
+

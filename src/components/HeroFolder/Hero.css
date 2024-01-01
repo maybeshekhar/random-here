@@ -1,0 +1,76 @@
+/* Hero.css */
+
+.hero {
+    text-align: center;
+    background-image: url("../../assets/cover/hero.jpg");
+     background-size: cover;
+     background-attachment: fixed;
+     position: relative;
+     height: 100vh;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 120px;
+  }
+  
+  .photo-container {
+    flex: 0 0 50%;
+    padding: 20px;
+  }
+  
+  .photo-class {
+    width: 100%;
+    height: auto;
+    max-width: 80%; /* Ensure the image doesn't exceed its natural size */
+  }
+  
+  .text-container {
+    flex: 0 0 50%;
+    padding: 20px;
+    padding-top: 180px;
+  }
+  
+  .text-title {
+    color: white;
+  }
+  
+  .my-name {
+    margin-bottom: 10px;
+    font-size: 5rem;
+  }
+  
+  /* Media Query for Mobile View */
+  @media (max-width: 767px) {
+
+    .hero {
+        background-position: center;
+        background-attachment: fixed;
+      /*  padding-top: 40%; */
+       height: 100vh;
+       
+       object-fit: cover;
+       overflow: hidden;
+      }
+
+    .card-container {
+      flex-direction: column;
+    }
+  
+    .photo-container,
+    .text-container {
+      flex: 1 1 100%;
+    }
+  
+    .photo-container,
+    .text-container {
+      padding: 20px;
+    }
+    .my-name {
+
+        font-size: 2.3rem;
+      }
+  }
+  
